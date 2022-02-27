@@ -2,9 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./assets/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./styles.css">
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
+<!-- begin dark-light mode -->
+<div class="container night-mode-available">
+    <img src="./assets/tech_it_easy.png" alt="Tech is easy image">
+    <div class="night-mode-button">
+        <input type="checkbox" class="checkbox" id="night-mode">
+        <label for="night-mode" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="blob"></div>
+        </label>
+    </div>
+    <div class="info night-mode-available">
+        <!-- <h1>Dark-light mode</h1> -->
+        <h1>Frontend javascript tech it easy opdracht.</h1>
+
+        <p><b>Nog te verkopen:</b>
+        <p id="tvs-to-sell"></p>
+
+        <p><b>Totaal ingekocht:</b></p>
+        <p id="total-tvs"></p>
+
+        <p><b>Verkocht:</b></p>
+        <p id="total-sold-till-now"></p>
+
+        <h2>TV merken</h2>
+        <ul id="merken"></ul>
+
+        <p><b>Voorbeeld TV</b></p>
+        <p id="merk"></p>
+        <p id="prijs"></p>
+        <p id="grootte"></p><br>
+
+        <p><b>Alle TV's</b></p>
+        <p id="all-tvs"></p>
+
+    </div>
+
+</div>
+
+
+<script src="./js/dark-light-mode.js"></script>
+
+<!-- einde dark-light mode -->
+
+<script src="./js/main.js"></script>
+<script src="./js/opdracht-1.js"></script>
+<script src="./js/opdracht-2.js"></script>
+<script src="./js/opdracht-3.js"></script>
+<script src="./js/opdracht-4.js"></script>
+<script src="js/bonusopdracht.js"></script>
 
 </body>
 </html>
